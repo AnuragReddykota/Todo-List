@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+header {
+  padding-top: 100px;
+  text-align: center;
+}
+header > input {
+  width: 50%;
+  font-size: 24px;
+  border-radius: 6px;
+}
+header > button {
+  font-size: 24px;
+  padding: 0 12px;
+  background-color: #b5e48c;
+}
+main {
+  display: flex;
+  direction: column;
+  margin: auto;
+}
+ul {
+  margin: auto;
+  width: 60%;
+  font-size: 24px;
+  text-align: start;
+  list-style: none;
+}
+li {
+  border: 2px solid #ff5d8f;
+  padding: 10px;
+  border-radius: 12px;
+  margin: 12px;
+}
+@media screen and (max-width: 768px) {
+  ul {
+    width: 100%;
+  }
+}
